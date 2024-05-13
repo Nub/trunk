@@ -83,7 +83,7 @@ tempfile = "3"
 rstest = "0.19"
 
 [features]
-default = ["update_check", "rustls"]
+default = ["rustls"]
 
 # use rustls as TLS stack
 rustls = [
